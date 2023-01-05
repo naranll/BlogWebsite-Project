@@ -4,6 +4,6 @@ import Articles from './sub/Articles';
 export default function Body(props) {
     return <div>
         <Category />
-        <Articles data={props} />
+        <Articles data={props.data} />
     </div>
 }
