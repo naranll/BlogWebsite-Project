@@ -12,13 +12,6 @@ export const data = [
    title: "What is UI/UX Sprint Design experience",
    image:
      "https://www.techtic.com/wp-content/uploads/2019/10/design-sprint-process-for-product-design-development.png",
-   description: "",
-   category: "UX",
- },
- {
-   title: "What is UI/UX Sprint Design experience",
-   image:
-     "https://www.techtic.com/wp-content/uploads/2019/10/design-sprint-process-for-product-design-development.png",
    description:
      "While it is recommended to include all six phases of the methodology, there are certainly situations where you might want to run a shorter workshop utilizing these methods. These methods can help align a team on the right problem to solve or provide actionable solutions to a tightly scoped challenge that can be tested with users at a later date. The important thing is that you pick the methods that work best for your specific goal and plan the number of days for your Sprint accordingly. Learn, explore, create and find out what works best for the types of problems you typically seek to solve In addition to the Design Sprint methodologies, there are a variety of other techniques you may consider, and they are always evolving. Perhaps youll contribute a Design Sprint method of your own!",
    category: "PD",
@@ -168,12 +161,6 @@ export const data = [
    image: "https://wallpapercave.com/wp/wp7151246.jpg",
    description:
      "I've heard some UI designers suggest Disney's animation principles as required reading for UI designers. Unfortunately this helps to promote the idea of UI as entertainment, which invariably leads to a UI that slows the user down. I'm not anti motion design for UIs. Far from it. I have a problem with animation that serves only to get in the way of the end user.",
-   category: "UI",
- },
- {
-   title: "",
-   image: "",
-   description: "",
    category: "UI",
  },
  {

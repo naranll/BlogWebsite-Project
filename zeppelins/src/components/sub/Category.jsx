@@ -2,7 +2,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
-export default function Category() {
+export default function Category(props) {
+    // function filterType() {
+    //     if()
+    // }
     return <div>
         <Navbar>
             <Container>

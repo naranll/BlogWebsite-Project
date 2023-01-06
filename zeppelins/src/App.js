@@ -2,7 +2,6 @@ import './App.css';
 import {data} from './util/data.js' //array
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-// import Poster from './components/Poster';
 import Body from './components/Body';
 
 
