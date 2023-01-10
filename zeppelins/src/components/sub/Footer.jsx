@@ -1,5 +1,6 @@
 import ArtLogo from '../icons/ArtLogo'
-import '/Users/morning/Desktop/BlogWebsite-Project/zeppelins/src/styles/footer.css'
+// import 'zeppelins/src/styles/footer.css'
+import "/Users/morning/Desktop/React-Zeppelins/zeppelins/src/styles/footer.css"
 
 export default function Footer() {
     return <div className='footer'>

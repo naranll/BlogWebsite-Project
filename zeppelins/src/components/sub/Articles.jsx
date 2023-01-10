@@ -1,9 +1,11 @@
 import Card from "react-bootstrap/Card"
-import '/Users/morning/Desktop/BlogWebsite-Project/zeppelins/src/styles/body.css'
+// import 'zeppelins/src/styles/body.css'
+import "/Users/morning/Desktop/React-Zeppelins/zeppelins/src/styles/poster.css"
+
 
 function limitWords(str) {
     return str.split(' ').filter(function (num) {
-        return num != ''
+        return num !== ''
     }).slice(0, 25).join(' ');
 }
 
