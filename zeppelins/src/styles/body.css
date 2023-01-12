@@ -1,0 +1,40 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.articleCard {
+  width: 45%;
+  height: 600px;
+}
+
+.cardTitle {
+  color: #d05270;
+}
+
+.cardImage {
+  height: 410px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px;
+}
+
+.description {
+  display: flex;
+}
+
+.cardLink {
+  color: #d05270;
+}

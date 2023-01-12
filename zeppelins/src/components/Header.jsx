@@ -1,7 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Poster from './Poster';
 import Logo from './icons/Logo';
 import Hire from './icons/Hire';
 
@@ -25,6 +24,6 @@ export default function Header() {
             </Container>
         </Navbar>
 
-        <Poster />
+
     </div >
 }
