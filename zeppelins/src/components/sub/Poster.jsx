@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 // import "zeppelins/src/styles/poster.css";
-import "/Users/morning/Desktop/React-Zeppelins/zeppelins/src/styles/poster.css";
+import "../../styles/poster.css";
 
 export default function Poster() {
     return <Container>
