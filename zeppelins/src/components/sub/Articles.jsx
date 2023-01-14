@@ -1,6 +1,5 @@
-import Card from "react-bootstrap/Card"
-// import 'zeppelins/src/styles/body.css'
-import "/Users/morning/Desktop/React-Zeppelins/zeppelins/src/styles/poster.css"
+import Card from "react-bootstrap/Card";
+import "../../styles/articles.css";
 
 
 function limitWords(str) {
@@ -15,7 +14,13 @@ export default function Articles(props) {
         {
             props.data.map((article, index) => {
                 return <Card key={index} className="articleCard">
-                    <img src={article.image} className="cardImage"></img>
+                    {/* <div className="cardImgContainer">
+                        <img src={article.image} className="cardImage"></img>
+                    </div> */}
+                    
+                    <span className="cardImgContainer">
+                        <img src={article.image} className="cardImage"></img>
+                    </span>
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">{article.title}</Card.Title>
                         <Card.Text className="description">{limitWords(article.description)}...</Card.Text>
