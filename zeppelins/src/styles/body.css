@@ -1,9 +1,15 @@
 .body {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 300px;
 }
 
 p {
   margin-bottom: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
 }

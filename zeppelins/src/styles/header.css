@@ -1,0 +1,29 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarCollapse {
+    flex-grow: 0!important;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.navLinks a:hover {
+    color: #5A47AB;
+}
